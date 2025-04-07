@@ -12,13 +12,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.camera3dviewer",
+      "bundleIdentifier": "com.dammytech.camera3dviewer",
       "infoPlist": {
         "NSCameraUsageDescription": "This app needs access to the camera to enable flashlight functionality",
-        "NSLocalNetworkUsageDescription": "This app needs access to the local network to discover and connect to your Raspberry Pi camera"
+        "NSLocalNetworkUsageDescription": "This app needs access to the local network to discover and connect to your Raspberry Pi camera",
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
       }
     },
     "android": {
@@ -34,7 +38,12 @@
         "ACCESS_NETWORK_STATE",
         "CHANGE_NETWORK_STATE",
         "WRITE_EXTERNAL_STORAGE",
-        "READ_EXTERNAL_STORAGE"
+        "READ_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
       ],
       "versionCode": 1
     },
@@ -58,6 +67,15 @@
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f94daa3b-b4da-4106-9afc-0eabcfbc31a8"
+      }
+    },
+    "owner": "d-tech"
   }
 }

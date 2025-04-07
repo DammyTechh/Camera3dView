@@ -1,4 +1,4 @@
-package com.camera3dviewer
+package com.yourcompany.camera3dviewer
 
 import android.app.Application
 import android.content.res.Configuration

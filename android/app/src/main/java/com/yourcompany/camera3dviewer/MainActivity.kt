@@ -1,4 +1,4 @@
-package com.camera3dviewer
+package com.yourcompany.camera3dviewer
 
 import android.os.Build
 import android.os.Bundle

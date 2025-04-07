@@ -1,4 +1,4 @@
-rootProject.name = 'Camera3DViewer'
+rootProject.name = 'Camera 3D Viewer'
 
 dependencyResolutionManagement {
   versionCatalogs {
