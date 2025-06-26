@@ -1,8 +1,7 @@
 # 📷 PiVision3D – Mobile App + Raspberry Pi Camera + 3D AI Editor
 
-![Languages](./91ed933c-94b2-43bb-9537-d4dfea13e2ce.png)
 
-**PiVision3D** is an AI-powered mobile-first application that connects seamlessly to a Raspberry Pi Camera. It allows users to view and edit images in 3D using advanced transformation controls and generate stereo wiggle animations through AI-powered depth estimation. The frontend is built with TypeScript, while native mobile modules are implemented in Kotlin (Android) and Objective-C++ (iOS). Ruby scripts support automation on the Raspberry Pi server.
+**Camera3dView** is an AI-powered mobile-first application that connects seamlessly to a Raspberry Pi Camera. It allows users to view and edit images in 3D using advanced transformation controls and generate stereo wiggle animations through AI-powered depth estimation. The frontend is built with TypeScript, while native mobile modules are implemented in Kotlin (Android) and Objective-C++ (iOS). Ruby scripts support automation on the Raspberry Pi server.
 
 ---
 
@@ -60,8 +59,8 @@
 ```bash
 sudo apt update
 sudo apt install python3-flask python3-picamera
-git clone https://github.com/yourusername/pivision3d.git
-cd pivision3d/pi-server
+git clone https://github.com/DammyTechh/Camera3dView.git
+cd Camera3dView
 python3 app.py
 ```
 
@@ -78,7 +77,7 @@ cd android-app
 
 # iOS (Xcode required)
 cd ios-app
-open PiVision3D.xcworkspace
+open Camera3dView.xcworkspace
 ```
 
 ---
